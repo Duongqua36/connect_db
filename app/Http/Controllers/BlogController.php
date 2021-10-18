@@ -11,15 +11,39 @@ class BlogController extends Controller
 {
 
     public function showHome(){
-        $items = Item::all();
-        return view('fontend.home',compact('items'));
+        $services = $this->getService();
+        $news = $this->getNew();
+        return view('fontend.home',compact('services','news'));
+    }
+
+    public function getService(){
+        return Item::where('module','advertisement')
+            ->where('position','advertisement')
+            ->get([
+                'image',
+                'title',
+                'description'
+            ]);
+    }
+
+    public function getNew(){
+        return Item::where('module','article')
+            ->where('position','article')
+            ->get([
+                'image',
+                'title',
+                'slug'
+            ]);
     }
 
     public function showBlog($slug)
     {
-        $items = Item::all();
         $news = Item::where('slug',$slug)->paginate(2);
-       return view('fontend.page.list',compact('news','items'));
+       return view('fontend.blog.list',compact('news'));
+    }
+    public function showPage($slug){
+        $services = Item::where('slug',$slug)->paginate(2);
+        return view('fontend.page.detail',compact('services'));
     }
 
     public function blogDetail($id){

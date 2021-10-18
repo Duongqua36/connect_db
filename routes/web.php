@@ -21,7 +21,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[BlogController::class,'showHome'])->name('home');
 
-Route::get('/showBlog/{slug}',[BlogController::class,'showBlog'])->name('page.list');
+Route::get('/showBlog/{slug}',[BlogController::class,'showBlog'])->name('blog.list');
+Route::get('/showPage/{slug}',[BlogController::class,'showPage'])->name('page.list');
 
 Route::get('/blogDetail/{id}',[BlogController::class,'blogDetail'])->name('page.detail');
 
@@ -35,7 +36,7 @@ Route::middleware(['auth'])->group(function (){
 
     Route::resource('groups',GroupController::class);
 
-    Route::resource('blogs',PagesController::class);
+    Route::resource('pages',PagesController::class);
 
     Route::resource('du-lich', ItemController::class);
     Route::resource('lien-hoan', ItemController::class);

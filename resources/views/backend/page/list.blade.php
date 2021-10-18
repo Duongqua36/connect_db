@@ -27,7 +27,7 @@
                     </div>
                     <!--end::Dropdown-->
                     <!--begin::Button-->
-                    <a href="{{route('blogs.create')}}" class="btn btn-primary font-weight-bolder">
+                    <a href="{{route('pages.create')}}" class="btn btn-primary font-weight-bolder">
                 <span>
                     <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -79,8 +79,8 @@
 
                             <td>{{$item->created_at}}</td>
                             <td>
-                                <a href="{{route('items.edit',$item->id)}}" class="btn btn-hover-white " style="width: 48px"><i class="fas fa-pen"></i></a>
-                                <form action="{{route('items.destroy',$item)}}" method="post" class="mt-2">
+                                <a href="{{route('pages.edit',$item->id)}}" class="btn btn-hover-white " style="width: 48px"><i class="fas fa-pen"></i></a>
+                                <form action="{{route('pages.destroy',$item)}}" method="post" class="mt-2">
                                     @csrf
                                     @method('delete')
                                     <button type="submit" class="btn btn-hover-white "><i class="fas fa-trash-alt"></i></button>

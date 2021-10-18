@@ -462,47 +462,18 @@
 
                 <p>LĨNH VỰC KINH DOANH</p>
             </header>
-
             <div class="row gy-4" data-aos="fade-left">
-
+@foreach($services as $service)
                 <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                     <div class="box">
-                        <img src="{{asset('fontend/img/b2c.jpg')}}" class="img-fluid" alt="" width="100%">
-                        <p class="title mt-4">Bán lẻ B2C</p>
+                        <img src="{{$service->image}}" class="img-fluid" alt="" width="80%" height="80%">
+                        <p class="title mt-2">{{$service->title}}</p>
                         <p>B2C thực hiện trực tiếp quá trình bán sản phẩm/ dịch vụ đến người tiêu dùng cá nhân.</p>
-                        <a href="#" class="btn-buy mt-4">Đọc Thêm</a>
+{{--                        <a href="{{route('page.list',$service->slug)}}" class="btn-buy mt-2">Đọc Thêm</a>--}}
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="box">
-                        <img src="{{asset('fontend/img/fuifillment.gif')}}" class="img-fluid" alt="" width="100%">
-                        <p class="title mt-3">Dịch vụ Fulfilment</p>
-                        <p>Dịch vụ fulfillment là quá trình bắt đầu từ lúc hàng hóa được nhập vào kho đến lúc người mua hàng nhận được sản phẩm.</p>
-                        <a href="#" class="btn-buy mt-4">Đọc Thêm</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="box">
-                        <img src="{{asset('fontend/img/online-marketing.jpg')}}" class="img-fluid" alt="" width="100%">
-                        <p class="title">Marketing online</p>
-                        <p>Marketing Online hay còn gọi là tiếp thị trực tuyến là những hoạt động tận dụng môi trường internet để truyền bá thông điệp về thương hiệu, sản phẩm hoặc dịch vụ</p>
-                        <a href="#" class="btn-buy ">Đọc Thêm</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="box">
-                        <img src="{{asset('fontend/img/pod.png')}}" class="img-fluid" alt="" width="100%">
-                        <p class="title mt-2">POD</p>
-                        <p>Tham gia vào dịch vụ POD, bạn có thể tự thiết kế hoặc lấy ảnh chụp đăng tải lên website có chức năng in áo theo yêu cầu.</p>
-                        <a href="#" class="btn-buy mt-4">Đọc Thêm</a>
-                    </div>
-                </div>
-
+                @endforeach
             </div>
-
         </div>
 
     </section><!-- End Pricing Section -->
@@ -1044,14 +1015,14 @@
                 <p>Tin tức</p>
             </header>
             <div class="row">
-                @if(isset($items))
-             @foreach($items as $item)
+                @if(isset($news))
+             @foreach($news as $new)
                 <div class="col-lg-4">
                     <div class="post-box">
-                        <div class="post-img"><img src="{{$item['image']}}" class="img-fluid" alt=""></div>
+                        <div class="post-img"><img src="{{$new->image}}" class="img-fluid" alt=""></div>
                         <span class="post-date">Tue, September 15</span>
-                        <h3 class="post-title">{{$item['title']}}</h3>
-                            <a href="{{route('page.list',$item['slug'])}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                        <h3 class="post-title">{{$new->title}}</h3>
+                            <a href="{{route('blog.list',$new->slug)}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
                 @endforeach

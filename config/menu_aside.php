@@ -80,7 +80,7 @@ return [
             'submenu' => [
                 [
                     'title' => 'Tất cả quảng cáo',
-                    'page' => '/blogs'
+                    'page' => '/pages'
                 ],
                 [
                     'title' => 'Danh mục quảng cáo',

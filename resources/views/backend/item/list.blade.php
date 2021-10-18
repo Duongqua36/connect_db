@@ -147,7 +147,7 @@
                             <span class="label label-dark label-inline font-weight-light mr-2" style="display: inherit ">Không hoạt động</span>
                             @endif
                     </td>
-                    <td><img src="{{$item->image}}" height="60" width="60" ></td>
+                    <td><img src="{{$item->image}}" height="50" width="50" ></td>
                     <td>{{$item->created_at}}</td>
                     <td>
                         <a href="{{route('items.edit',$item->id)}}" class="btn btn-hover-white " style="width: 48px"><i class="fas fa-pen"></i></a>

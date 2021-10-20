@@ -38,7 +38,10 @@ class BlogController extends Controller
 
     public function showBlog($slug)
     {
-        $news = Item::where('slug',$slug)->paginate(2);
+
+        $news = Item::where('slug',$slug)
+            ->where('module','article')
+            ->paginate(2);
        return view('fontend.blog.list',compact('news'));
     }
     public function showPage($slug){
@@ -48,7 +51,7 @@ class BlogController extends Controller
 
     public function blogDetail($id){
         $item = Item::find($id);
-        return view('fontend.page.detail_blog',compact('item'));
+        return view('fontend.blog.detail_blog',compact('item'));
     }
 
     public function viewBlog(){

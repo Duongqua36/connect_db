@@ -3,7 +3,7 @@
 
 {{-- Content --}}
 @section('content')
-    <p>Tất cả bài viết</p>
+    <p>{{__('Tất cả bài viết')}}</p>
     <div class="container">
         <form action="{{route('filter.item')}}" method="get">
             <div class="row">

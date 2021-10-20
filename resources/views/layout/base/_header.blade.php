@@ -1,5 +1,5 @@
 {{-- Header --}}
-<div id="kt_header" class="header abc {{ Metronic::printClasses('header', false) }}" {{Metronic::printAttrs('header') }}>
+<div id="kt_header" class="header {{ Metronic::printClasses('header', false) }}" {{Metronic::printAttrs('header') }}>
 
     {{-- Container --}}
     <div class="container-fluid d-flex align-items-center justify-content-between">
@@ -25,11 +25,11 @@
                     </div>
                 @endif
 
-                <div id="kt_header_menu" class="header-menu header-menu-mobile {{ Metronic::printClasses('header_menu', false) }}" {{ Metronic::printAttrs('header_menu') }}>
-                    <ul class="menu-nav {{ Metronic::printClasses('header_menu_nav', false) }}">
-                        {{ Menu::renderHorMenu(config('menu_header.items')) }}
-                    </ul>
-                </div>
+{{--                <div id="kt_header_menu" class="header-menu header-menu-mobile {{ Metronic::printClasses('header_menu', false) }}" {{ Metronic::printAttrs('header_menu') }}>--}}
+{{--                    <ul class="menu-nav {{ Metronic::printClasses('header_menu_nav', false) }}">--}}
+{{--                        {{ Menu::renderHorMenu(config('menu_header.items')) }}--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
             </div>
 
         @else

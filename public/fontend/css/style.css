@@ -179,6 +179,7 @@ section {
   z-index: 997;
   padding: 20px 0;
 }
+
 .header.header-scrolled {
   background: #fff;
   padding: 15px 0;
@@ -473,6 +474,8 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+
+
 }
 
 /*--------------------------------------------------------------

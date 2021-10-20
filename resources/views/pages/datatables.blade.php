@@ -1,4 +1,4 @@
-{{-- Extends layout --}}
+    {{-- Extends layout --}}
 {{--@extends('layout.default')--}}
 
 {{-- Content --}}

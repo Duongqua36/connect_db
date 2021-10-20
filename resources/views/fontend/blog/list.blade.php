@@ -84,8 +84,8 @@
                 <div class="col-lg-8 entries">
 
                         <article class="entry"  >
-                        @if(isset($items))
-              @foreach($items as $item)
+                        @if(isset($news))
+              @foreach($news as $item)
                         <div class="entry-img">
                             <img src="{{$item['image']}}" alt="" class="img-fluid">
                         </div>

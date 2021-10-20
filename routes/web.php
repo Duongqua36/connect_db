@@ -17,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::group(['middleware'=>'locale'],function (){
+Route::get('change-language/{language}',[ItemController::class,'changeLanguage'])->name('user.changeLanguage');
 
 Route::get('/',[BlogController::class,'showHome'])->name('home');
 
@@ -49,7 +50,7 @@ Route::middleware(['auth'])->group(function (){
     Route::get('/filter',[ItemController::class,'searchItem'])->name('filter.item');
 
     Route::get('/quick-search', [PagesController::class, 'quickSearch'])->name('quick-search');
-
+});
 });
 
 require __DIR__.'/auth.php';

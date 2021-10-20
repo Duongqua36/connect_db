@@ -6,9 +6,9 @@ use App\Models\Group;
 use App\Models\Item;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 use mysql_xdevapi\Table;
 use function Sodium\compare;
-
 class ItemController extends Controller
 {
     protected $module = '';
@@ -76,9 +76,10 @@ class ItemController extends Controller
      */
     public function edit(Request $request)
     {
-        $item = Item::with('groups')->findOrFail($request->segment(1));
-
-        return view('backend.item.edit', compact('item'));
+        $groups = Group::all();
+        $item = Item::with('groups')
+            ->findOrFail($request->segment(1));
+        return view('backend.item.edit', compact('item','groups'));
     }
 
     /**
@@ -146,5 +147,11 @@ class ItemController extends Controller
         $old_data = $request->all();
         $groups = Group::where('module',$this->module.'-list');
         return view('backend.item.list',compact('old_data','items'));
+    }
+
+
+    public function changeLanguage($language){
+     Session::put('website_language',$language);
+     return redirect()->back();
     }
 }

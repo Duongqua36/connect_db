@@ -7,9 +7,9 @@
     <div class="row">
         <?php
         if (isset($item)) {
-            $a = route('blogs.update', $item);
+            $a = route('items.update', $item);
         } else
-            $a = route('blogs.store');
+            $a = route('items.store');
         ?>
         <form class="col-lg-9" method="post" action="{{$a}}" id="form-add">
             @if(isset($item))
@@ -24,13 +24,14 @@
                 <input type="text" name="slug" id="slug" value="{{$item->slug??''}}">
             <div>
                 <label class="form-label">group_id</label>
-                <select type="number" class="form-control" name="group_id" id="group_id" >
-{{--                @foreach($groups as $group)--}}
-{{--                    <option value="{{$group->id}}" @if($item->group->id == $group->id )selected>{{$group->title}}</option>--}}
-{{--                        @else--}}
-{{--                            <option value="{{$group->id}}">{{$group->title}}</option>--}}
-{{--                        @endif--}}
-{{--                @endforeach--}}
+                <select type="number" class="form-control" name="group_id" id="group_id" required>
+                @foreach($groups as $group)
+                    @if(isset($item))
+                            <option value="{{$group->id}}"  @if($item->group->id == $group->id )selected @endif>{{$group->title}}</option>
+                        @else
+                            <option value="{{$group->id}}">{{$group->title}}</option>
+                        @endif
+                @endforeach
                 </select>
             </div>
             <div>
@@ -42,10 +43,10 @@
                 <textarea type="text" class="ckeditor" name="content" id="content-edit">{!! $item->content??'' !!}
                 </textarea>
             </div>
-{{--                <div>--}}
-{{--                    <label class="form-label">Module</label>--}}
-{{--                    <input type="text" class="form-control" name="module" id="module" value="{{$item->module??''}}">--}}
-{{--                </div>--}}
+                <div>
+                    <label class="form-label">Module</label>
+                    <input type="text" class="form-control" name="module" value="{{$item->module??''}}">
+                </div>
             <div class="mt-2">
                 <img src="https://buildercorp.id/assets/document/preview.jpg" id="finder" width="40" height="40">
                 <input type="text" id="update_image" name="image">

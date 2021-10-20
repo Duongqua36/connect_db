@@ -34,9 +34,10 @@ class PagesController extends Controller
     }
 
     public function edit(Request $request){
+        $group = Group::all();
         $item = Item::all();
         $i = Item::with('groups')->findOrFail($request->segment(1));
-        return view('backend.page.edit',compact('i','item'));
+        return view('backend.page.edit',compact('i','item','group'));
     }
 
     public function update(Request $request, Item $item){
@@ -45,9 +46,10 @@ class PagesController extends Controller
         return redirect()->route("pages.index");
     }
 
-    public function destroy(Request $request, Item $item){
-        $item = Item::findOfFail($item->id);
-        $item->group()->detach($request->group_id);
+    public function destroy($id)
+    {
+        $item = Item::findOfFail($id);
+        $item->group()->detach();
         $item->delete();
         return redirect()->route('pages.index');
     }

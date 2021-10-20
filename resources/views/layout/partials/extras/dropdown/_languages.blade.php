@@ -9,41 +9,22 @@
 
     {{-- Item --}}
     <li class="navi-item active">
-        <a href="#" class="navi-link">
+        <a href="{!! route('user.changeLanguage',['en']) !!}" class="navi-link">
             <span class="symbol symbol-20 mr-3">
                 <img src="{{ asset('media/svg/flags/128-spain.svg') }}" alt=""/>
             </span>
-            <span class="navi-text">Spanish</span>
+            <span class="navi-text">EN</span>
         </a>
     </li>
 
     {{-- Item --}}
     <li class="navi-item">
-        <a href="#" class="navi-link">
+        <a href="{!! route('user.changeLanguage',['vi']) !!}" class="navi-link">
             <span class="symbol symbol-20 mr-3">
-                <img src="{{ asset('media/svg/flags/162-germany.svg') }}" alt=""/>
+                <img src="{{ asset('media/svg/flags/220-vietnam.svg') }}" alt=""/>
             </span>
-            <span class="navi-text">German</span>
+            <span class="navi-text">VI</span>
         </a>
     </li>
 
-    {{-- Item --}}
-    <li class="navi-item">
-        <a href="#" class="navi-link">
-            <span class="symbol symbol-20 mr-3">
-                <img src="{{ asset('media/svg/flags/063-japan.svg') }}" alt=""/>
-            </span>
-            <span class="navi-text">Japanese</span>
-        </a>
-    </li>
-
-    {{-- Item --}}
-    <li class="navi-item">
-        <a href="#" class="navi-link">
-            <span class="symbol symbol-20 mr-3">
-                <img src="{{ asset('media/svg/flags/195-france.svg') }}" alt=""/>
-            </span>
-            <span class="navi-text">French</span>
-        </a>
-    </li>
 </ul>

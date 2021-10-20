@@ -220,8 +220,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Features</h2>
-                <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+                <p>Môi trường DKT</p>
             </header>
 
             <div class="row">
@@ -236,42 +235,42 @@
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Eos aspernatur rem</h3>
+                                <h3>Trẻ trung, năng động</h3>
                             </div>
                         </div>
 
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Facilis neque ipsa</h3>
+                                <h3>nhiệt huyết với công việc</h3>
                             </div>
                         </div>
 
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Volup amet voluptas</h3>
+                                <h3>Luôn biến đổi không ngừng để thích nghi</h3>
                             </div>
                         </div>
 
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Rerum omnis sint</h3>
+                                <h3>Luôn cải thiện và sáng tạo</h3>
                             </div>
                         </div>
 
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Alias possimus</h3>
+                                <h3>Tư tưởng đi kèm với hành động</h3>
                             </div>
                         </div>
 
                         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
                             <div class="feature-box d-flex align-items-center">
                                 <i class="bi bi-check"></i>
-                                <h3>Repellendus mollitia</h3>
+                                <h3>Đoàn kết</h3>
                             </div>
                         </div>
 
@@ -311,7 +310,7 @@
 
             <!-- Feature Icons -->
             <div class="row feature-icons" data-aos="fade-up">
-                <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+                <h3>Những lợi ích chúng tôi mang lại</h3>
 
                 <div class="row">
 
@@ -325,48 +324,48 @@
                             <div class="col-md-6 icon-box" data-aos="fade-up">
                                 <i class="ri-line-chart-line"></i>
                                 <div>
-                                    <h4>Corporis voluptates sit</h4>
-                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                    <h4>Giúp mọi người tiếp cận với nhiều sản phẩm hơn</h4>
+{{--                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>--}}
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                 <i class="ri-stack-line"></i>
                                 <div>
-                                    <h4>Ullamco laboris nisi</h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                    <h4>Mọi người có thể tìm thấy những sản phẩm ưng ý</h4>
+{{--                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>--}}
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                                 <i class="ri-brush-4-line"></i>
                                 <div>
-                                    <h4>Labore consequatur</h4>
-                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    <h4>Giúp mọi người tiết kiệm thời gian</h4>
+{{--                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>--}}
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                 <i class="ri-magic-line"></i>
                                 <div>
-                                    <h4>Beatae veritatis</h4>
-                                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                    <h4>Luôn có một đội ngũ chăm sóc các bạn</h4>
+{{--                                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>--}}
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                                 <i class="ri-command-line"></i>
                                 <div>
-                                    <h4>Molestiae dolor</h4>
-                                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                                        <h4>Giúp mọi người có thể tương tác tốt hơn</h4>
+{{--                                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>--}}
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                                 <i class="ri-radar-line"></i>
                                 <div>
-                                    <h4>Explicabo consectetur</h4>
-                                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                                    <h4>Luôn thay đổi vì các bạn</h4>
+{{--                                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>--}}
                                 </div>
                             </div>
 
@@ -387,26 +386,25 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Services</h2>
-                <p>Veritatis et dolores facere numquam et praesentium</p>
+                <p>DỊCH VỤ CỦA CHÚNG TÔI</p>
             </header>
-
             <div class="row gy-4">
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-box blue">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Nesciunt Mete</h3>
-                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                        <h3>Dịch vụ quảng cáo</h3>
+                        <p>Quảng cáo là hình thức tuyên truyền được trả phí hoặc không để thực hiện việc giới thiệu thông tin về sản phẩm, dịch vụ.</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
+
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box orange">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Eosle Commodi</h3>
-                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                        <h3>Dịch vụ bán lẻ</h3>
+                        <p>Bán lẻ là quá trình bán hàng hóa hoặc dịch vụ tiêu dùng cho khách hàng thông qua nhiều kênh phân phối để kiếm lợi nhuậ.</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -414,8 +412,8 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-box green">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Ledo Markt</h3>
-                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                        <h3>Dịch vụ chăm sóc khách hàng</h3>
+                        <p> Chăm sóc khách hàng (Customer Care) hay dịch vụ khách hàng là tất cả những gì cần thiết mà doanh nghiệp phải làm để thỏa mãn nhu cầu của khách hàng .</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -423,8 +421,8 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-box red">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Asperiores Commodi</h3>
-                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                        <h3>Dịch vụ chuyển hàng</h3>
+                        <p>Dịch vụ vận chuyển là việc chuyển hàng hóa từ địa điểm này đến địa điểm khác với nhiều hình thức, nhiều phương tiện.</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -432,17 +430,16 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-box purple">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Velit Doloremque.</h3>
-                        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                        <h3>Dịch vụ ăn uống</h3>
+                        <p>dịch vụ ăn uống là cơ sở chế biến thức ăn, đồ uống mang đi hoặc dùng tại chỗ.</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
                     <div class="service-box pink">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Dolori Architecto</h3>
-                        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                        <h3>Dịch vụ Fulfilment</h3>
+                        <p>Dịch vụ fulfillment là quá trình bắt đầu từ lúc hàng hóa được nhập vào kho đến lúc người mua hàng nhận được sản phẩm.</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -479,113 +476,114 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+{{--    <section id="faq" class="faq">--}}
 
-        <div class="container" data-aos="fade-up">
+{{--        <div class="container" data-aos="fade-up">--}}
 
-            <header class="section-header">
-                <h2>F.A.Q</h2>
-                <p>Frequently Asked Questions</p>
-            </header>
+{{--            <header class="section-header">--}}
+{{--                <h2>F.A.Q</h2>--}}
+{{--                <p>Frequently Asked Questions</p>--}}
+{{--            </header>--}}
 
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- F.A.Q List 1-->
-                    <div class="accordion accordion-flush" id="faqlist1">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                    Non consectetur a erat nam at lectus urna duis?
-                                </button>
-                            </h2>
-                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                </div>
-                            </div>
-                        </div>
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-6">--}}
+{{--                    <!-- F.A.Q List 1-->--}}
+{{--                    <div class="accordion accordion-flush" id="faqlist1">--}}
+{{--                        <div class="accordion-item">--}}
+{{--                            <h2 class="accordion-header">--}}
+{{--                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">--}}
+{{--                                    Non consectetur a erat nam at lectus urna duis?--}}
+{{--                                </button>--}}
+{{--                            </h2>--}}
+{{--                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">--}}
+{{--                                <div class="accordion-body">--}}
+{{--                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                                </button>
-                            </h2>
-                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="accordion-item">--}}
+{{--                            <h2 class="accordion-header">--}}
+{{--                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">--}}
+{{--                                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?--}}
+{{--                                </button>--}}
+{{--                            </h2>--}}
+{{--                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">--}}
+{{--                                <div class="accordion-body">--}}
+{{--                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                                </button>
-                            </h2>
-                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                                <div class="accordion-body">
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="accordion-item">--}}
+{{--                            <h2 class="accordion-header">--}}
+{{--                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">--}}
+{{--                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?--}}
+{{--                                </button>--}}
+{{--                            </h2>--}}
+{{--                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">--}}
+{{--                                <div class="accordion-body">--}}
+{{--                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                    </div>
-                </div>
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-6">
+{{--                <div class="col-lg-6">--}}
 
-                    <!-- F.A.Q List 2-->
-                    <div class="accordion accordion-flush" id="faqlist2">
+{{--                    <!-- F.A.Q List 2-->--}}
+{{--                    <div class="accordion accordion-flush" id="faqlist2">--}}
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="accordion-item">--}}
+{{--                            <h2 class="accordion-header">--}}
+{{--                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">--}}
+{{--                                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?--}}
+{{--                                </button>--}}
+{{--                            </h2>--}}
+{{--                            <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">--}}
+{{--                                <div class="accordion-body">--}}
+{{--                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="accordion-item">--}}
+{{--                            <h2 class="accordion-header">--}}
+{{--                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">--}}
+{{--                                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?--}}
+{{--                                </button>--}}
+{{--                            </h2>--}}
+{{--                            <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">--}}
+{{--                                <div class="accordion-body">--}}
+{{--                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                                    Varius vel pharetra vel turpis nunc eget lorem dolor?
-                                </button>
-                            </h2>
-                            <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
-                                <div class="accordion-body">
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="accordion-item">--}}
+{{--                            <h2 class="accordion-header">--}}
+{{--                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">--}}
+{{--                                    Varius vel pharetra vel turpis nunc eget lorem dolor?--}}
+{{--                                </button>--}}
+{{--                            </h2>--}}
+{{--                            <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">--}}
+{{--                                <div class="accordion-body">--}}
+{{--                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                    </div>
-                </div>
+{{--                    </div>--}}
+{{--                </div>--}}
 
-            </div>
+{{--            </div>--}}
 
-        </div>
+{{--        </div>--}}
 
-    </section><!-- End F.A.Q Section -->
+{{--    </section>--}}
+    <!-- End F.A.Q Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -593,10 +591,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Portfolio</h2>
-                <p>Check our latest work</p>
+                <p>Sản phẩm của chúng tôi</p>
             </header>
-
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
@@ -748,8 +744,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Testimonials</h2>
-                <p>What they are saying about us</p>
+                <p>về chúng tôi</p>
             </header>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -761,12 +756,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Chúng tôi luôn làm việc chăm chỉ
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{asset('fontend/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <h3>Nguyễn Văn A</h3>
+                                <h4>Người sáng lập</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -777,12 +772,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                Chúng tôi luôn làm việc chăm chỉ
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{asset('fontend/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                                <h3>Nguyễn văn B</h3>
+                                <h4>Nhà thiết kế</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -793,12 +788,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                Chúng tôi luôn làm việc chăm chỉ
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{asset('fontend/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <h3>Nguyễn Văn A</h3>
+                                <h4>Chủ sở hữu cửa tiệm</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -809,12 +804,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                Chúng tôi luôn làm việc chăm chỉ
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{asset('fontend/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
+                                <h3>Nguyễn Văn B</h3>
+                                <h4>Doanh nhân</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -825,12 +820,12 @@
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                Chúng tôi luôn làm việc chăm chỉ
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{asset('fontend/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
+                                <h3>Nguyễn Văn A</h3>
+                                <h4>Doanh nhân</h4>
                             </div>
                         </div>
                     </div><!-- End testimonial item -->
@@ -867,9 +862,8 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>HOÀNG MINH QUÂN</h4>
+                            <h4>Nguyễn văn A</h4>
                             <span>CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ</span>
-                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
                         </div>
                     </div>
                 </div>
@@ -886,9 +880,8 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>ĐỖ TRỌNG HIẾU</h4>
+                            <h4>Nguyễn Văn B</h4>
                             <span>TỔNG GIÁM ĐỐC</span>
-                            <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
                         </div>
                     </div>
                 </div>
@@ -905,9 +898,8 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>LƯU XUÂN SƠN</h4>
+                            <h4>Nguyễn Văn C</h4>
                             <span>GIÁM ĐỐC ĐIỀU HÀNH</span>
-                            <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
                         </div>
                     </div>
                 </div>
@@ -924,9 +916,8 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>HOÀNG NHƯ QUỲNH</h4>
+                            <h4>Nguyễn Văn D</h4>
                             <span>GIÁM ĐỐC NHÂN SỰ</span>
-                            <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
                         </div>
                     </div>
                 </div>
@@ -1019,7 +1010,9 @@
              @foreach($news as $new)
                 <div class="col-lg-4">
                     <div class="post-box">
-                        <div class="post-img"><img src="{{$new->image}}" class="img-fluid" alt=""></div>
+                        <div class="post-img" style="width: 360px;height: 225px;object-fit: cover">
+                            <img src="{{$new->image}}" class="img-fluid">
+                        </div>
                         <span class="post-date">Tue, September 15</span>
                         <h3 class="post-title">{{$new->title}}</h3>
                             <a href="{{route('blog.list',$new->slug)}}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
@@ -1123,22 +1116,6 @@
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">
 
-    <div class="footer-newsletter">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                </div>
-                <div class="col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="footer-top">
         <div class="container">
             <div class="row gy-4">
@@ -1147,7 +1124,7 @@
                         <img src="{{asset('fontend/img/logo.png')}}" alt="">
                         <span>DKT</span>
                     </a>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <p>Công ty cổ phần thương mại điện tử DKT .</p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -1156,7 +1133,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4>BUSINESS AREAS</h4>
+                    <h4>LĨNH VỰC KINH DOANH</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Agency</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Gaming</a></li>
@@ -1169,7 +1146,7 @@
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>DỊCH VỤ CỦA CHÚNG TÔI</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
@@ -1180,7 +1157,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                    <h4>Contact Us</h4>
+                    <h4>LIÊN HỆ CHÚNG TÔI</h4>
                     <p>
                         37 NGUYỄN VĂN HUYÊN<br>
                         P.QUAN HOA - CẦU GIẤY - HÀ NỘI<br>

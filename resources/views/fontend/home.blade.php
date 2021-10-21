@@ -54,7 +54,13 @@
                 <li><a class="nav-link scrollto" href="#services">Dự Án</a></li>
                 <li><a class="nav-link scrollto" href="#portfolio">Tuyển Dụng</a></li>
                 <li><a class="nav-link scrollto" href="#team">Về Chúng Tôi</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                <li class="dropdown"><a href="#" class="logo flag" ><img src="{{asset('fontend/img/co_vn.png')}}" height="30px" width="25px"></a>
+                    <ul>
+                        <li><a href="#" class="logo" style="width: 0"><img src="{{asset('fontend/img/co_vn.png')}}" height="30px" width="25px">Việt nam</a></li>
+                        <li><a href="#" class="logo" style="width: 0"><img src="{{asset('fontend/img/co_english.png')}}" height="30px" width="25px">English</a></li>
+                    </ul>
+                </li>
+
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -96,8 +102,8 @@
 
                 <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
-                        <h3>Who We Are</h3>
-                        <h2>GIỚI THIỆU CHUNG.</h2>
+{{--                        <h3>Who We Are</h3>--}}
+                        <h2>Giới thiệu chung.</h2>
                         <p>
                             Công ty cổ phần thương mại điện tử DKT (DKT E-COMMERCE ,.JSC ) là công ty hoạt động trên lĩnh vực thương mại điện tử B2C hàng đầu Việt Nam với quy mô trải rộng ở các quốc gia ở Châu Á và Châu âu.
                             Hiện tại, quy mô của DKT đã lên tới gần 200 nhân sự ở Việt Nam và một số nước như : Thái Lan, Philippines, Indonesia, Malaysia, US-UK….….
@@ -128,7 +134,7 @@
 
             <header class="section-header">
                 <h2>Our Values</h2>
-                <p>LÝ DO CHỌN CHÚNG TÔI</p>
+                <p>Lí do chọn chúng tôi</p>
             </header>
 
             <div class="row">
@@ -136,7 +142,7 @@
                 <div class="col-lg-4">
                     <div class="box" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{asset('fontend/img/values-1.png')}}" class="img-fluid" alt="">
-                        <h3>KHÁT VỌNG</h3>
+                        <h3>Khát vọng</h3>
                         <p>Khát vọng cải thiện cuộc sống và biến thế giới trở thành một cộng đồng kết nối hơn nữa thông qua các sản phẩm và dịch vụ sáng tạo.</p>
                     </div>
                 </div>
@@ -144,7 +150,7 @@
                 <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="box" data-aos="fade-up" data-aos-delay="400">
                         <img src="{{asset('fontend/img/values-2.png')}}" class="img-fluid" alt="">
-                        <h3>PHÁT TRIỂN</h3>
+                        <h3>Phát triển</h3>
                         <p>Suy nghĩ đi kèm với hành động, nhờ đó mạng lưới hoạt động ngày càng phát triển và mở rộng.</p>
                     </div>
                 </div>
@@ -152,7 +158,7 @@
                 <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="box" data-aos="fade-up" data-aos-delay="600">
                         <img src="{{asset('fontend/img/values-3.png')}}" class="img-fluid" alt="">
-                        <h3>THÀNH CÔNG</h3>
+                        <h3>Thành công</h3>
                         <p>Tin tưởng vào giá trị và sức mạnh của chính mình, biến những điều không thể trở thành những giá trị đẳng cấp thế giới.</p>
                     </div>
                 </div>
@@ -174,7 +180,7 @@
                         <i class="bi bi-emoji-smile"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-                            <p> IDOL HIỆN TẠI</p>
+                            <p> Idol hiện tại</p>
                         </div>
                     </div>
                 </div>
@@ -184,7 +190,7 @@
                         <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>GROUP TRỰC THUỘC</p>
+                            <p>Group trực thuộc</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +200,7 @@
                         <i class="bi bi-headset" style="color: #15be56;"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>FANPAGE TRỰC THUỘC</p>
+                            <p>Fanpage trực thuộc</p>
                         </div>
                     </div>
                 </div>
@@ -204,7 +210,7 @@
                         <i class="bi bi-people" style="color: #bb0852;"></i>
                         <div>
                             <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>VIDEO SẢN XUẤT </p>
+                            <p>Video sản xuất </p>
                         </div>
                     </div>
                 </div>
@@ -226,7 +232,7 @@
             <div class="row">
 
                 <div class="col-lg-6">
-                    <img src="{{asset('fontend/img/features.png')}}" class="img-fluid" alt="">
+                    <img src="{{asset('fontend/img/anh_lv.png')}}" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
@@ -282,7 +288,7 @@
             <!-- Feature Tabs -->
             <div class="row feture-tabs" data-aos="fade-up">
                 <div class="col-lg-6">
-                    <h3>TẦM NHÌN CỦA CHÚNG TÔI</h3>
+                    <h3>Tầm nhìn của chúng tôi</h3>
 
                     <!-- Tab Content -->
                     <div class="tab-content">
@@ -293,7 +299,7 @@
                             </p>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check2"></i>
-                                <h4>SỨ MỆNH</h4>
+                                <h4>Sứ mệnh</h4>
                             </div>
                             <p>Sứ mệnh của chúng tôi là không ngừng nâng cao mọi chất lượng dịch vụ và sản phẩm để phục vụ khách hàng và đối tác, luôn luôn đặt ra những tiêu chuẩn mới hơn, cao hơn để hoàn thiện mọi hoạt động kinh doanh và các sản phẩm, dịch vụ đưa ra thị trường.</p>
                         </div>
@@ -302,8 +308,8 @@
 
                 </div>
 
-                <div class="col-lg-6">
-                    <img src="{{asset('fontend/img/features-2.png')}}" class="img-fluid" alt="">
+                <div class="col-lg-6" >
+                    <img src="{{asset('fontend/img/anh_lv2.jpg')}}" class="img-fluid" alt=""  >
                 </div>
 
             </div><!-- End Feature Tabs -->
@@ -315,7 +321,7 @@
                 <div class="row">
 
                     <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="{{asset('fontend/img/features-3.png')}}" class="img-fluid p-4" alt="">
+                        <img src="{{asset('fontend/img/anh_lv3.jpg')}}" class="img-fluid p-2" >
                     </div>
 
                     <div class="col-xl-8 d-flex content">
@@ -386,7 +392,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <p>DỊCH VỤ CỦA CHÚNG TÔI</p>
+                <p>Dịch vụ của chúng tôi</p>
             </header>
             <div class="row gy-4">
 
@@ -457,7 +463,7 @@
 
             <header class="section-header">
 
-                <p>LĨNH VỰC KINH DOANH</p>
+                <p>Lĩnh vực kinh doanh</p>
             </header>
             <div class="row gy-4" data-aos="fade-left">
 @foreach($services as $service)
@@ -594,14 +600,6 @@
                 <p>Sản phẩm của chúng tôi</p>
             </header>
             <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
             </div>
 
             <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
@@ -744,7 +742,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <p>về chúng tôi</p>
+                <p>Đội ngũ làm việc của chúng tôi</p>
             </header>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -844,8 +842,8 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Team</h2>
-                <p>Đội ngũ làm việc chăm chỉ của chúng tôi</p>
+{{--                <h2>Team</h2>--}}
+                <p>Ban lãnh đạo công ty</p>
             </header>
 
             <div class="row gy-4">
@@ -853,7 +851,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{asset('fontend/img/bos1.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('fontend/img/admin2.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -863,7 +861,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Nguyễn văn A</h4>
-                            <span>CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ</span>
+                            <span>Chủ tịch hội đồng quản trị</span>
                         </div>
                     </div>
                 </div>
@@ -871,7 +869,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{asset('fontend/img/bos2.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('fontend/img/admin2.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -881,7 +879,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Nguyễn Văn B</h4>
-                            <span>TỔNG GIÁM ĐỐC</span>
+                            <span>Tổng giám đốc</span>
                         </div>
                     </div>
                 </div>
@@ -889,7 +887,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{asset('fontend/img/bos3.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('fontend/img/admin2.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -899,7 +897,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Nguyễn Văn C</h4>
-                            <span>GIÁM ĐỐC ĐIỀU HÀNH</span>
+                            <span>Giám đốc điều hành</span>
                         </div>
                     </div>
                 </div>
@@ -907,7 +905,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                     <div class="member">
                         <div class="member-img">
-                            <img src="{{asset('fontend/img/boss4.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('fontend/img/admin2.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -917,7 +915,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Nguyễn Văn D</h4>
-                            <span>GIÁM ĐỐC NHÂN SỰ</span>
+                            <span>Giám đốc nhân sự</span>
                         </div>
                     </div>
                 </div>
@@ -932,7 +930,7 @@
     <div id="partner">
         <div class="container">
             <div class="section-title">
-                <h2 style="">
+                <h2 style="color: #0b198f">
                     <span>Đối tác của chúng tôi</span>
                 </h2>
             </div>
@@ -1030,7 +1028,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Contact</h2>
+{{--                <h2>Contact</h2>--}}
                 <p>Liên hệ chúng tôi</p>
             </header>
 
@@ -1042,7 +1040,7 @@
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
+                                <h3>Địa chỉ</h3>
                                 <p>37 NGUYỄN VĂN HUYÊN
                                     P.QUAN HOA - CẦU GIẤY - HÀ NỘI</p>
                             </div>
@@ -1050,21 +1048,21 @@
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
-                                <h3>Call Us</h3>
+                                <h3>Gọi cho chúng tôi</h3>
                                 <p>0242.246.2020</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-envelope"></i>
-                                <h3>Email Us</h3>
+                                <h3>Gửi email cho chúng tôi</h3>
                                 <p>LIENHE@HQGROUPS.VN</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-clock"></i>
-                                <h3>Open Hours</h3>
+                                <h3>Giờ mở cửa</h3>
                                 <p>T2 - T7 (08h - 18h)</p>
                             </div>
                         </div>
@@ -1093,11 +1091,11 @@
                             </div>
 
                             <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
+                                <div class="loading">Đang tải</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="sent-message">Tin nhắn của bạn đã được gửi. Cảm ơn bạn!</div>
 
-                                <button type="submit">Send Message</button>
+                                <button type="submit">Gửi tin nhắn</button>
                             </div>
 
                         </div>
@@ -1135,24 +1133,22 @@
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>LĨNH VỰC KINH DOANH</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Agency</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Gaming</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Studio</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Esport</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Entertainment</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Software</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Center</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Bán lẻ B2C</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">POD</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing online</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ Fulfilment</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>DỊCH VỤ CỦA CHÚNG TÔI</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ quảng cáo</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ bán lẻ</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ chăm sóc khách hàng</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ chuyển hàng</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ ăn uống</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch vụ Fulfilment</a></li>
                     </ul>
                 </div>
 
@@ -1167,19 +1163,6 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="copyright">
-            © 2019 - 2030 All Rights Reserved. Thiết kế bởi HQ GROUPS.
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
     </div>
 </footer><!-- End Footer -->

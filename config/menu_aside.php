@@ -7,14 +7,14 @@ return [
         [
             'title' => 'Dashboard',
             'root' => true,
-            'icon' => 'media/svg/icons/Design/Layers.svg', // or can be 'flaticon-home' or any flaticon-*
+//            'icon' => 'media/svg/icons/Design/Layers.svg', // or can be 'flaticon-home' or any flaticon-*
             'page' => '/',
             'new-tab' => false,
         ],
 
         [
             'title' => 'Quản lí bài viết',
-            'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg',
+//            'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg',
             'bullet' => 'line',
             'root' => true,
             'submenu' => [
@@ -74,7 +74,7 @@ return [
         ],
         [
             'title' => 'Quản lí quảng cáo',
-            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+//            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
             'bullet' => 'dot',
             'root' => true,
             'submenu' => [
@@ -90,6 +90,22 @@ return [
 
             ],
         ],
+        [
+            'title' => 'Hệ thống',
+//            'icon' => 'media/svg/icons/Shopping/Barcode-read.svg',
+            'bullet' => 'dot',
+            'root' => true,
+            'submenu' => [
+                [
+                    'title' => 'Cấu hình chung',
+                    'page' => '/pages'
+                ],
+//                [
+//                    'title' => 'Danh mục quảng cáo',
+//                    'page' => '/users'
+//                ],
 
+            ],
+        ],
     ],
 ];

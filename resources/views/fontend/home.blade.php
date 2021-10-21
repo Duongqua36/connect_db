@@ -41,10 +41,8 @@
 <!-- ======= Header ======= -->
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
         <a href="index.html" class="logo d-flex align-items-center">
-            <img src="{{asset('fontend/img/logo.png')}}" alt="">
-            <span>DKT</span>
+            <span><img src="{{asset('fontend/img/Logo-DKT.png')}}" alt=""></span>
         </a>
 
         <nav id="navbar" class="navbar">
@@ -1119,8 +1117,7 @@
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-info">
                     <a href="index.html" class="logo d-flex align-items-center">
-                        <img src="{{asset('fontend/img/logo.png')}}" alt="">
-                        <span>DKT</span>
+                        <span><img src="{{asset('fontend/img/Logo-DKT.png')}}" alt=""></span>
                     </a>
                     <p>Công ty cổ phần thương mại điện tử DKT .</p>
                     <div class="social-links mt-3">

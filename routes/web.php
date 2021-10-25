@@ -40,7 +40,7 @@ Route::group(['middleware' => 'locale'], function () {
 
         Route::resource('pages', PagesController::class);
 
-        Route::resource('setting', SettingController::class);
+        Route::resource('settings', SettingController::class);
 
         Route::resource('du-lich', ItemController::class);
         Route::resource('lien-hoan', ItemController::class);

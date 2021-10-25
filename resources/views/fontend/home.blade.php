@@ -394,9 +394,9 @@
             <header class="section-header">
                 <p>Dịch vụ của chúng tôi</p>
             </header>
-            <div class="row gy-4">
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonials-slider swiper ">
+                <div class="swiper-wrapper " >
+                <div class=" swiper-slide " data-aos="fade-up" data-aos-delay="200">
                     <div class="service-box blue">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ quảng cáo</h3>
@@ -405,8 +405,7 @@
                     </div>
                 </div>
 
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class=" swiper-slide "  data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box orange">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ bán lẻ</h3>
@@ -415,7 +414,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="swiper-slide " data-aos="fade-up" data-aos-delay="400">
                     <div class="service-box green">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ chăm sóc khách hàng</h3>
@@ -424,7 +423,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class=" swiper-slide " data-aos="fade-up" data-aos-delay="500">
                     <div class="service-box red">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ chuyển hàng</h3>
@@ -433,7 +432,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class=" swiper-slide " data-aos="fade-up" data-aos-delay="600">
                     <div class="service-box purple">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ ăn uống</h3>
@@ -441,7 +440,8 @@
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+
+                <div class=" swiper-slide " data-aos="fade-up" data-aos-delay="700">
                     <div class="service-box pink">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ Fulfilment</h3>
@@ -449,12 +449,17 @@
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-
+                </div>
             </div>
 
         </div>
 
-    </section><!-- End Services Section -->
+    </section>
+
+
+
+
+    <!-- End Services Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -835,7 +840,8 @@
 
         </div>
 
-    </section><!-- End Testimonials Section -->
+    </section>
+    <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">

@@ -1199,6 +1199,11 @@ section {
 .testimonials .swiper-slide {
   opacity: 0.3;
 }
+.testimonials-slider .swiper-slide {
+    height: auto;
+   margin:0 1em;
+}
+
 @media (max-width: 1199px) {
   .testimonials .swiper-slide-active {
     opacity: 1;

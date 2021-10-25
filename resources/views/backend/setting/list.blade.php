@@ -2,18 +2,20 @@
 @extends('layout.default')
 {{-- Content --}}
 @section('content')
-    <div class="container">
-        <div class="row">
+
+    <form method="post"  id="form-add" action="{{route('settings.update','--')}}">
+        @method('PUT')
+        @csrf
             <div class="card card-custom" style="width: 100%">
                 <div class="card-header">
-                    <div class="cart-title mt-5">
+                    <div class="card-title mt-5">
                         <h3>Cấu hình hệ thống</h3>
                     </div>
-                    <a href="#" class="btn btn-success mt-3" style="height: 40px; width: 110px">
+                    <button class="btn btn-success mt-3" style="height: 40px; width: 110px" type="submit">
                         <i class="flaticon2-check-mark"></i>Cập nhật
-                    </a>
+                    </button>
                 </div>
-                   <div class="cart-body">
+                   <div class="card-body">
                        <div class="example-preview mt-5">
                            <ul class="nav nav-tabs" id="myTab" role="tablist">
                                <li class="nav-item">
@@ -42,19 +44,18 @@
                                </li>
                            </ul>
                        </div>
-                   </div>
-                    <form class="col-lg-12 mt-8" method="post"  id="form-add">
+
                         @foreach($settings as $item)
-                            <div>
+                            <div class="form-group">
                                 <label class="form-label" style="text-transform: uppercase">{{$item->name}}</label>
                                 <input type="text" class="form-control"  name="{{$item->name}}" placeholder="{{$item->name}}" value="{{$item->val}}">
                             </div>
                         @endforeach
-                    </form>
                    </div>
-            </div>
-        </div>
+                   </div>
+    </form>
         @endsection
+
 
         {{-- Styles Section --}}
         @section('styles')

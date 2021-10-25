@@ -105,7 +105,7 @@ class BackendFactory
     }
 
     /**
-     * Creates a backend file system.
+     * Creates a backend file setting.
      *
      * @return Backend
      */

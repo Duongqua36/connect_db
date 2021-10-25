@@ -30,7 +30,7 @@ class NotSupportedException extends RuntimeException implements FilesystemExcept
      */
     public static function forFtpSystemType($systemType)
     {
-        $message = "The FTP system type '$systemType' is currently not supported.";
+        $message = "The FTP setting type '$systemType' is currently not supported.";
 
         return new static($message);
     }

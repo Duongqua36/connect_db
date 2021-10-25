@@ -15,7 +15,7 @@ use Psr\EventDispatcher\StoppableEventInterface;
 use Symfony\Component\EventDispatcher\Debug\WrappedListener;
 
 /**
- * The EventDispatcherInterface is the central point of Symfony's event listener system.
+ * The EventDispatcherInterface is the central point of Symfony's event listener setting.
  *
  * Listeners are registered on the manager and events are dispatched through the
  * manager.

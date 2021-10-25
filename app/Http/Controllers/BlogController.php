@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\Item;
+use App\Models\Setting;
 use Illuminate\Http\Request;
 use function Symfony\Component\String\b;
 
@@ -11,9 +12,20 @@ class BlogController extends Controller
 {
 
     public function showHome(){
+
         $services = $this->getService();
         $news = $this->getNew();
-        return view('fontend.home',compact('services','news'));
+        return view('fontend.home',$this->getSetting(),compact('services','news'));
+    }
+
+    public function getSetting(){
+        return  [
+            "description" => Setting::where('name','description')->first('val')->val,
+            "title" => Setting::where('name','title')->first('val')->val,
+            "address" => Setting::where('name','address')->first('val')->val,
+            "phone" => Setting::where('name','phone')->first('val')->val,
+            "email" => Setting::where('name','email')->first('val')->val,
+        ];
     }
 
     public function getService(){

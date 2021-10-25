@@ -30,7 +30,7 @@ use League\Flysystem\Filesystem;
 use League\Flysystem\Plugin\GetWithMetadata;
 
 /**
- * The Backend file system class.
+ * The Backend file setting class.
  *
  * A wrapper class for League\Flysystem\Filesystem with
  * CKFinder customizations.

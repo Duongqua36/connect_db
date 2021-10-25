@@ -107,7 +107,7 @@
                                 <a href="{{route('page.detail',$item['id'])}}">Đọc thêm</a>
                             </div>
                         </div>
-                        @endforeach
+                        @endforeach;
                             @endif
                     </article><!-- End page entry -->
                 </div><!-- End page entries list -->

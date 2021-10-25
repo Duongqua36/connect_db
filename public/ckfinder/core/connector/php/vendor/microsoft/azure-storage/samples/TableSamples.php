@@ -38,7 +38,7 @@ createTableSample($tableClient);
 // To add an entity to a table, create a new Entity object and pass it to TableRestProxy->insertEntity.
 // Note that when you create an entity you must specify a PartitionKey and RowKey. These are the unique
 // identifiers for an entity and are values that can be queried much faster than other entity properties.
-// The system uses PartitionKey to automatically distribute the table¡¯s entities over many storage nodes.
+// The setting uses PartitionKey to automatically distribute the tableï¿½ï¿½s entities over many storage nodes.
 insertEntitySample($tableClient);
 
 // To add mutiple entities with one call, create a BatchOperations and pass it to TableRestProxy->batch.
@@ -47,7 +47,7 @@ insertEntitySample($tableClient);
 //   https://msdn.microsoft.com/library/azure/dd894038.aspx
 batchInsertEntitiesSample($tableClient);
 
-// To query for entities you can call queryEntities. The subset of entities you retrieve will be determined 
+// To query for entities you can call queryEntities. The subset of entities you retrieve will be determined
 // by the filter you use (for more information, see Querying Tables and Entities):
 //   https://msdn.microsoft.com/library/azure/dd894031.aspx
 // You can also provide no filter at all.
@@ -71,7 +71,7 @@ function insertEntitySample($tableClient)
     $entity->setPartitionKey("pk");
     $entity->setRowKey("1");
     $entity->addProperty("PropertyName", EdmType::STRING, "Sample1");
-    
+
     try{
         $tableClient->insertEntity("mytable", $entity);
     } catch(ServiceException $e){
@@ -90,10 +90,10 @@ function batchInsertEntitiesSample($tableClient)
         $entity->setPartitionKey("pk");
         $entity->setRowKey(''.$i);
         $entity->addProperty("PropertyName", EdmType::STRING, "Sample".$i);
-        
+
         $batchOp->addInsertEntity("mytable", $entity);
     }
-    
+
     try {
         $tableClient->batch($batchOp);
     } catch(ServiceException $e){
@@ -106,7 +106,7 @@ function batchInsertEntitiesSample($tableClient)
 function queryEntitiesSample($tableClient)
 {
     $filter = "RowKey ne '3'";
-    
+
     try {
         $result = $tableClient->queryEntities("mytable", $filter);
     } catch(ServiceException $e){
@@ -114,9 +114,9 @@ function queryEntitiesSample($tableClient)
         $error_message = $e->getMessage();
         echo $code.": ".$error_message.PHP_EOL;
     }
-    
+
     $entities = $result->getEntities();
-    
+
     foreach($entities as $entity){
         echo $entity->getPartitionKey().":".$entity->getRowKey().PHP_EOL;
     }

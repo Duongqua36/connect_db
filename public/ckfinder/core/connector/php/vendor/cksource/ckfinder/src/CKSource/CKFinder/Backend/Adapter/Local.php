@@ -25,11 +25,11 @@ use CKSource\CKFinder\Utils;
 use SplFileInfo;
 
 /**
- * Local file system adapter.
+ * Local file setting adapter.
  *
  * A wrapper class for \League\Flysystem\Adapter\Local with
  * additions for `chmod` permissions management and conversions
- * between the file system and connector file name encoding.
+ * between the file setting and connector file name encoding.
  */
 class Local extends \League\Flysystem\Adapter\Local
 {

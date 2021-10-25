@@ -434,7 +434,7 @@ class StreamHandler
     private function add_verify(RequestInterface $request, &$options, $value, &$params)
     {
         if ($value === true) {
-            // PHP 5.6 or greater will find the system cert by default. When
+            // PHP 5.6 or greater will find the setting cert by default. When
             // < 5.6, use the Guzzle bundled cacert.
             if (PHP_VERSION_ID < 50600) {
                 $options['ssl']['cafile'] = \GuzzleHttp\default_ca_bundle();

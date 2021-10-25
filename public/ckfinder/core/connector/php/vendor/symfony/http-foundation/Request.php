@@ -428,7 +428,7 @@ class Request
      * Sets a callable able to create a Request instance.
      *
      * This is mainly useful when you need to override the Request class
-     * to keep BC with an existing system. It should not be used for any
+     * to keep BC with an existing setting. It should not be used for any
      * other purpose.
      */
     public static function setFactory(?callable $callable)

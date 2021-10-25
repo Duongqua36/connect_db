@@ -31,7 +31,7 @@ abstract class ResizedImageAbstract
 
     /**
      * The Backend where resized images are stored. By default
-     * it points to the `dir.thumbs` local file system directory.
+     * it points to the `dir.thumbs` local file setting directory.
      *
      * @var Backend
      */

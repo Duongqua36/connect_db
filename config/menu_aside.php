@@ -98,7 +98,7 @@ return [
             'submenu' => [
                 [
                     'title' => 'Cấu hình chung',
-                    'page' => '/pages'
+                    'page' => '/setting'
                 ],
 //                [
 //                    'title' => 'Danh mục quảng cáo',

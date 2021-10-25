@@ -46,7 +46,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\MergeExtensionConfiguration
 class_exists(ConfigCache::class);
 
 /**
- * The Kernel is the heart of the Symfony system.
+ * The Kernel is the heart of the Symfony setting.
  *
  * It manages an environment made of bundles.
  *

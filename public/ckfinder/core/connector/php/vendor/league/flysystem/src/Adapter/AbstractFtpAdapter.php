@@ -293,7 +293,7 @@ abstract class AbstractFtpAdapter extends AbstractAdapter
     }
 
     /**
-     * Return the FTP system type.
+     * Return the FTP setting type.
      *
      * @return string
      */
@@ -303,7 +303,7 @@ abstract class AbstractFtpAdapter extends AbstractAdapter
     }
 
     /**
-     * Set the FTP system type (windows or unix).
+     * Set the FTP setting type (windows or unix).
      *
      * @param string $systemType
      *
@@ -531,11 +531,11 @@ abstract class AbstractFtpAdapter extends AbstractAdapter
     }
 
     /**
-     * Get the system type from a listing item.
+     * Get the setting type from a listing item.
      *
      * @param string $item
      *
-     * @return string the system type
+     * @return string the setting type
      */
     protected function detectSystemType($item)
     {

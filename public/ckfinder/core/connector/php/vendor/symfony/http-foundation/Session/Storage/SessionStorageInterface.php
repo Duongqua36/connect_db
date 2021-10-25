@@ -82,7 +82,7 @@ interface SessionStorageInterface
      *
      * @param bool $destroy  Destroy session when regenerating?
      * @param int  $lifetime Sets the cookie lifetime for the session cookie. A null value
-     *                       will leave the system settings unchanged, 0 sets the cookie
+     *                       will leave the setting settings unchanged, 0 sets the cookie
      *                       to expire with browser session. Time is in seconds, and is
      *                       not a Unix timestamp.
      *

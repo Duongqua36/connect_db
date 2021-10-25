@@ -42,6 +42,8 @@
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
+
+
             <span><img src="{{asset('fontend/img/Logo-DKT.png')}}" alt=""></span>
         </a>
 
@@ -319,7 +321,7 @@
                 <div class="row">
 
                     <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="{{asset('fontend/img/anh_lv3.jpg')}}" class="img-fluid p-2" >
+                        <img src="{{asset('fontend/img/anh_lv3.jpg')}}" class="img-fluid p-4" >
                     </div>
 
                     <div class="col-xl-8 d-flex content">
@@ -590,149 +592,150 @@
     <!-- End F.A.Q Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+{{--    <section id="portfolio" class="portfolio">--}}
 
-        <div class="container" data-aos="fade-up">
+{{--        <div class="container" data-aos="fade-up">--}}
 
-            <header class="section-header">
-                <p>Sản phẩm của chúng tôi</p>
-            </header>
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
-            </div>
+{{--            <header class="section-header">--}}
+{{--                <p>Sản phẩm của chúng tôi</p>--}}
+{{--            </header>--}}
+{{--            <div class="row" data-aos="fade-up" data-aos-delay="100">--}}
+{{--            </div>--}}
 
-            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+{{--            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-app">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>App 1</h4>--}}
+{{--                            <p>App</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-web">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>Web 3</h4>--}}
+{{--                            <p>Web</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-app">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>App 2</h4>--}}
+{{--                            <p>App</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-4.jpg')}}a" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-card">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>Card 2</h4>--}}
+{{--                            <p>Card</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-4.jpg')}}a" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-5.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-web">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>Web 2</h4>--}}
+{{--                            <p>Web</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-5.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-6.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-app">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>App 3</h4>--}}
+{{--                            <p>App</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-6.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-7.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-card">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>Card 1</h4>--}}
+{{--                            <p>Card</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-7.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-card">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>Card 3</h4>--}}
+{{--                            <p>Card</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('fontend/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="{{asset('fontend/img/portfolio/portfolio-9.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4 col-md-6 portfolio-item filter-web">--}}
+{{--                    <div class="portfolio-wrap">--}}
+{{--                        <img src="{{asset('fontend/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">--}}
+{{--                        <div class="portfolio-info">--}}
+{{--                            <h4>Web 3</h4>--}}
+{{--                            <p>Web</p>--}}
+{{--                            <div class="portfolio-links">--}}
+{{--                                <a href="{{asset('fontend/img/portfolio/portfolio-9.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>--}}
+{{--                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-            </div>
+{{--            </div>--}}
 
-        </div>
+{{--        </div>--}}
 
-    </section><!-- End Portfolio Section -->
+{{--    </section>--}}
+    <!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -1038,23 +1041,22 @@
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-geo-alt"></i>
-                                <h3>Địa chỉ</h3>
-                                <p>37 NGUYỄN VĂN HUYÊN
-                                    P.QUAN HOA - CẦU GIẤY - HÀ NỘI</p>
+                                <h3>Address</h3>
+                                <p>{{($address)}}</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Gọi cho chúng tôi</h3>
-                                <p>0242.246.2020</p>
+                                <p>{{($phone)}}</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Gửi email cho chúng tôi</h3>
-                                <p>LIENHE@HQGROUPS.VN</p>
+                                <p>{{($email)}}</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -1155,8 +1157,8 @@
                         37 NGUYỄN VĂN HUYÊN<br>
                         P.QUAN HOA - CẦU GIẤY - HÀ NỘI<br>
                         <br>
-                        <strong>Phone:</strong> 0242.246.2020<br>
-                        <strong>Email:</strong> lienhe@hqgroups.vn<br>
+                        <strong>Phone:</strong> {{($phone)}}<br>
+                        <strong>Email:</strong> {{($email)}}<br>
                     </p>
                 </div>
             </div>

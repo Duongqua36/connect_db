@@ -54,13 +54,21 @@
                 <li><a class="nav-link scrollto" href="#services">{{__('Dự Án')}}</a></li>
                 <li><a class="nav-link scrollto" href="#portfolio">{{__('Tuyển Dụng')}}</a></li>
                 <li><a class="nav-link scrollto" href="#team">{{__('Về Chúng Tôi')}}</a></li>
-                <li class="dropdown"><a href="#" class="logo flag" ><img src="{{asset('fontend/img/co_vn.png')}}" height="30px" width="25px"></a>
-                    <ul>
+                <li class="dropdown">
+                    <a href="#" class="logo flag">
+                        @if(Session::get('website_language')=='vi')
+                            <img src="{{asset('fontend/img/co_vn.png')}}" height="30px" width="25px">
+                        @elseif(Session::get('website_language')=='en')
+                            <img src="{{asset('fontend/img/co_english.png')}}" height="30px" width="25px">
+                        @else
+                            <img src="{{asset('fontend/img/co_vn.png')}}" height="30px" width="25px">
+                        @endif
+                    </a>
+                        <ul>
                         <li><a href="{!! route('user.changeLanguage',['vi']) !!}" class="logo" style="width: 0"><img src="{{asset('fontend/img/co_vn.png')}}" height="30px" width="25px">Việt nam</a></li>
                         <li><a href="{!! route('user.changeLanguage',['en']) !!}" class="logo" style="width: 0"><img src="{{asset('fontend/img/co_english.png')}}" height="30px" width="25px">English</a></li>
                     </ul>
                 </li>
-
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

@@ -1,6 +1,8 @@
 /node_modules
 /public/hot
 /public/storage
+/public/ckfinder/userfiles
+/public/ckfinder/config.php
 /storage/*.key
 /vendor
 .env

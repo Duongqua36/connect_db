@@ -133,8 +133,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <h2>Our Values</h2>
-                <p>Lí do chọn chúng tôi</p>
+                <p>{{__('Lí do chọn chúng tôi')}}</p>
             </header>
 
             <div class="row">
@@ -226,7 +225,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <p>Môi trường DKT</p>
+                <p>{{__('Môi trường DKT')}}</p>
             </header>
 
             <div class="row">
@@ -288,7 +287,7 @@
             <!-- Feature Tabs -->
             <div class="row feture-tabs" data-aos="fade-up">
                 <div class="col-lg-6">
-                    <h3>Tầm nhìn của chúng tôi</h3>
+                    <h3>{{__('Tầm nhìn của chúng tôi')}}</h3>
 
                     <!-- Tab Content -->
                     <div class="tab-content">
@@ -316,7 +315,7 @@
 
             <!-- Feature Icons -->
             <div class="row feature-icons" data-aos="fade-up">
-                <h3>Những lợi ích chúng tôi mang lại</h3>
+                <h3>{{__('Những lợi ích chúng tôi mang lại')}}</h3>
 
                 <div class="row">
 
@@ -392,7 +391,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <p>Dịch vụ của chúng tôi</p>
+                <p>{{__('Dịch vụ của chúng tôi')}}</p>
             </header>
             <div class="testimonials-slider swiper ">
                 <div class="swiper-wrapper " >
@@ -409,7 +408,7 @@
                     <div class="service-box orange">
                         <i class="ri-discuss-line icon"></i>
                         <h3>Dịch vụ bán lẻ</h3>
-                        <p>Bán lẻ là quá trình bán hàng hóa hoặc dịch vụ tiêu dùng cho khách hàng thông qua nhiều kênh phân phối để kiếm lợi nhuậ.</p>
+                        <p>Bán lẻ là quá trình bán hàng hóa hoặc dịch vụ tiêu dùng cho khách hàng thông qua nhiều kênh phân phối để kiếm lợi nhuận.</p>
                         <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -466,7 +465,7 @@
 
             <header class="section-header">
 
-                <p>Lĩnh vực kinh doanh</p>
+                <p>{{__('Lĩnh vực kinh doanh')}}</p>
             </header>
             <div class="row gy-4" data-aos="fade-left">
 @foreach($services as $service)
@@ -492,7 +491,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-                <p>Đội ngũ làm việc của chúng tôi</p>
+                <p>{{__('Đội ngũ làm việc của chúng tôi')}}</p>
             </header>
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -594,7 +593,7 @@
 
             <header class="section-header">
 {{--                <h2>Team</h2>--}}
-                <p>Ban lãnh đạo công ty</p>
+                <p>{{__('Ban lãnh đạo công ty')}}</p>
             </header>
 
             <div class="row gy-4">
@@ -682,7 +681,7 @@
         <div class="container">
             <div class="section-title">
                 <h2 style="color: #0b198f">
-                    <span>Đối tác của chúng tôi</span>
+                    <span>{{__('Đối tác của chúng tôi')}}</span>
                 </h2>
             </div>
             <div class="gap-line">
@@ -752,7 +751,7 @@
     <section id="recent-blog-posts" class="recent-blog-posts">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
-                <p>Tin tức</p>
+                <p>{{__('Tin tức')}}</p>
             </header>
             <div class="row">
                 @if(isset($news))
@@ -780,7 +779,7 @@
 
             <header class="section-header">
 {{--                <h2>Contact</h2>--}}
-                <p>Liên hệ chúng tôi</p>
+                <p>{{__('Liên hệ chúng tôi')}}</p>
             </header>
 
             <div class="row gy-4">
@@ -902,7 +901,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                    <h4>LIÊN HỆ CHÚNG TÔI</h4>
+                    <h4>{{__('LIÊN HỆ CHÚNG TÔI')}}</h4>
                     <p>
                         37 NGUYỄN VĂN HUYÊN<br>
                         P.QUAN HOA - CẦU GIẤY - HÀ NỘI<br>

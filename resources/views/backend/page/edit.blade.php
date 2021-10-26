@@ -14,7 +14,7 @@
             @endif
             @csrf
             <div>
-                <label class="form-label">Tiêu đề</label>
+                <label class="form-label">Title</label>
                 <input type="text" class="form-control" onkeyup="ChangeToSlug()"  name="title" id="title" value="{{$item->title??''}}">
             </div>
                 <input type="text" name="slug" id="slug" value="{{$item->slug??''}}">
@@ -25,10 +25,6 @@
                             <option value="{{$group->id}}">{{$group->title}}</option>
                     @endforeach
                     </select>
-                </div>
-                <div>
-                    <label class="form-label">Module</label>
-                    <input type="text" class="form-control"  name="module"  value="{{$item->module??''}}">
                 </div>
                 <div>
                     <label class="form-label">Trạng thái</label>

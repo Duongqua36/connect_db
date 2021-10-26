@@ -1201,7 +1201,8 @@ section {
 }
 .testimonials-slider .swiper-slide {
     height: auto;
-   margin:0 1em;
+   /*margin:0 1em;*/
+    padding-left: 1%;
 }
 
 @media (max-width: 1199px) {

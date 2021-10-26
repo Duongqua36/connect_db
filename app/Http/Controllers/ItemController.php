@@ -78,8 +78,14 @@ class ItemController extends Controller
     {
         $groups = Group::all();
         $item = Item::with('groups')
-            ->findOrFail($request->segment(1));
-        return view('backend.item.edit', compact('item','groups'));
+            ->findOrFail($request->segment(2),[
+                'id',
+                'title',
+                'status',
+                'image',
+                'created_at'
+            ]);
+        return view('backend.item.edit',['module'=>$this->module], compact('item','groups'));
     }
 
     /**

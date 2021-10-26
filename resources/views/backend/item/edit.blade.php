@@ -27,7 +27,7 @@
                 <select type="number" class="form-control" name="group_id" id="group_id" required>
                 @foreach($groups as $group)
                     @if(isset($item))
-                            <option value="{{$group->id}}"  @if($item->group->id == $group->id )selected @endif>{{$group->title}}</option>
+                            <option value="{{$group->id}}"  @if($item->groups[0]->id == $group->id )selected @endif>{{$group->title}}</option>
                         @else
                             <option value="{{$group->id}}">{{$group->title}}</option>
                         @endif
@@ -43,10 +43,6 @@
                 <textarea type="text" class="ckeditor" name="content" id="content-edit">{!! $item->content??'' !!}
                 </textarea>
             </div>
-                <div>
-                    <label class="form-label">Module</label>
-                    <input type="text" class="form-control" name="module" value="{{$item->module??''}}">
-                </div>
             <div class="mt-2">
                 <img src="https://buildercorp.id/assets/document/preview.jpg" id="finder" width="40" height="40">
                 <input type="text" id="update_image" name="image">
@@ -91,9 +87,6 @@
             </div>
         </form>
         <div class="col-lg-3">
-            <div class="col-6">
-                <label for="price" class="form-label">Ngày tạo</label>
-            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
